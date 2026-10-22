@@ -1,0 +1,44 @@
+# Gradle y compilados de Android
+*.iml
+.gradle/
+**/build/
+.kotlin/
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.ap_
+*.aab
+*.hprof
+output-metadata.json
+
+# Firmas. No publicar claves.
+*.jks
+*.keystore
+
+# Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/shelf/
+.idea/misc.xml
+*.iws
+
+# API Node
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
